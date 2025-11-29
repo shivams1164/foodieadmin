@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "https://foodiesspringboot.onrender.com/api/orders";
+const API_URL = "https://foodiesspringboot.onrender.com:10000/api/orders";
 
 export const fetchAllOrders = async () => {
   try {
